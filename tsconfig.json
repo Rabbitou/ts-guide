@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "outDir": "./dist",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "sourceMap": true
+    },
+    "include": ["src/calculator.ts","src/exercise.ts","src/greeter.ts","src/stringUtils.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
